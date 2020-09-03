@@ -1,0 +1,145 @@
+.goole-searchform
+{
+    width:300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    height:118px;
+    position: center fixed;
+    
+}
+.searchbarinput{
+  margin-left: 45px;  
+  padding: 0 28px;
+  margin:5px;
+  border-radius:8px;
+  outline:none;
+  flex:  1 1 auto;
+  cursor: pointer;
+  user-select: none;
+  padding-top:6px;
+  border-width: 2px;
+  font-size-adjust: 14px;
+  
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  } 
+.searchicon
+{       
+  height: 27px;
+  width: 25px;
+  padding-top:7px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+  position: absolute;
+}
+
+.buttons{
+  padding-top:4px;
+  margin: 6px 8px;
+  text-align: center;
+  display: flex;
+}
+.button{
+
+  display:inline-block;
+  background-color: #f5f5f5;
+  border:none;
+  color:#707070;
+  font-size:15px;
+  padding: 0 18px;
+  margin:5px;
+  border-radius:4px;
+  outline:none;
+  flex:  1 1 auto;
+  cursor: pointer;
+  user-select: none;
+  
+  
+}
+.button:hover{
+  border: 1px solid #c8c8c8;
+  padding: 0 18px;
+  color:#000000;
+  
+}
+.button:focus{
+  border:1px solid #4885ed;
+  padding: 0 18px;
+}
+.appsicon
+{
+    height: 20px;
+    width: 20px;
+    
+}
+.appsicon:hover {
+  filter: invert(60%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+      list-style-type: none;
+      float: right;
+  }
+  
+  li a {
+      list-style-type: none;
+      color: black;
+      display: block;
+      padding: 8px;
+      background-color: #ffffff;
+    
+    }
+  .languages
+  {
+    display: inline-block;
+    line-height: 28px;
+    font-size: small;
+    color: #222;
+    font-family: arial,sans-serif;
+    font-size: small;
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+  
+  .footer
+  {
+    width:300px;
+    margin: auto;
+    float: right;
+    height: 50px;
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  #footer-content {
+    
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
